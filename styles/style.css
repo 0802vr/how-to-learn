@@ -7,20 +7,34 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  
+  
 }
-
+h1{
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 700;
+  color: #000000 ;
+}
+h2{
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000 ;
+}
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-}
+  display: flex;
+  padding: 0;
+  margin:0;
+  position: relative;
+  }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -28,4 +42,69 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.header{ 
+  background-color:  #f2f2f2;
+  border: 5px solid red;}
+  
+.logo{ 
+  
+  background-image: url(../images/logo_place_header.svg);
+}
+.logo_place_header{
+  height: 32px;
+  width: 183px;
+  position: absolute;
+  opacity: 1;
+  top: 30px;
+  left: 64px;
+  }
+.title{ 
+  width: 730px;
+  display: flex;
+  border: 5px solid red;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 64px;
+  z-index: 2;
+ 
+ }
+.subtitle {
+  width: 388px;
+  position: absolute;
+  opacity: 1;
+  left: 64px;
+  bottom: 40px;;
+  border: 5px solid red;
+  z-index: 2;
+  
+}
+.main-illustration{
+  background-image: url(../images/header-image.png);
+  background-position: center;
+  background-size: cover;
+}
+.main-illustration_place_header{
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  opacity: 1;
+  right: 0;
+  bottom: 0;
+  border: 5px solid red;
+  z-index: 1;
+}
+.square-pic{
+  background-color: #2f80ed;
+  background-position: center;
+  background-size: cover;
+}
+.square-pic_place_header {
+  height: 568px;
+  width: 568px;
+  border: 5px solid green;
+  position: absolute;
+  opacity: 1;
+  right: 0;
+  top: 64px;
 }
