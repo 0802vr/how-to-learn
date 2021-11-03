@@ -1,0 +1,8 @@
+.description{
+    min-height:350px;
+    max-height: 400px;
+    display:flex;
+    justify-content: center;
+    padding: 100px 0;
+    margin: 0;
+  }
