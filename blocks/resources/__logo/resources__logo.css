@@ -1,12 +1,12 @@
 .resources__logo {
-    width: 270px;
-    height: 38px;
-   background-size: cover;
-   background-position: center;
-   display: flex;
-   justify-content: center;
+  width: 270px;
+  height: 38px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
 }
-.resources__logo:hover{
-    opacity: 0.3;
-    transition: opacity 3s ease;
-  }
+.resources__logo:hover {
+  opacity: .3;
+  transition: opacity 3s ease;
+}

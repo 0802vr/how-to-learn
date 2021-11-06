@@ -1,8 +1,6 @@
-.digits{
-    min-height: 600px;
-    max-height: 756px;
-    padding: 100px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.digits {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
